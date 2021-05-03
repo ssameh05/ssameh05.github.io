@@ -1,0 +1,133 @@
+ /*start box sizing*/
+ * {
+    box-sizing: border-box;
+  }
+  /*end box-sizeing
+ ------------------------------------------------------------------------------------------------------------
+ start haeder*/
+ header{
+    margin: 0%;
+   background-color:cadetblue;
+   text-align: center;
+    color:blanchedalmond;
+    font-size: 300%;
+}
+/*end header
+-------------------------------------------------------------------------------------------------------------
+start section*/
+section{
+    margin: 15px auto;
+    background-color: rgb(49, 44, 53);
+    overflow:hidden;
+    width: 100%;
+}
+/*end section
+-------------------------------------------------------------------------------------------------------------
+start details*/
+details{
+    text-align: center;
+    background-color: rgb(212, 163, 163);
+}
+/*end details
+-------------------------------------------------------------------------------------------------------------
+start table*/
+table{
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:100%;
+    border-collapse:collapse;
+    color:black;
+
+}
+/*end table
+--------------------------------------------------------------------------------------------------------------
+start th,tr*/
+th,tr{
+    border:2px solid black;
+    text-align: center;
+}
+/*end th,tr
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+start li*/
+li{
+    color:black;
+    text-align:center;
+    list-style: none;
+
+    
+}
+/*end li
+----------------------------------------------------------------------------------------------------------------
+start h1*/
+h1{
+    font-size: 2vw;
+    text-align: center;
+    color: black;
+
+}
+/*end h1
+-----------------------------------------------------------------------------------------------------------------
+ start h2*/
+ h2{
+     font-size: 1.75vw;
+     color:black;
+     text-align:center;
+     border: 2px solid rgb(100,100,10);
+ }
+
+/*end h2------------------------------------------------------------------------------------------------------------------
+start link*/
+a{
+    text-decoration:none;
+}
+/*endl link
+------------------------------------------------------------------------------------------------------------------
+ start Paragraphs*/
+p{
+    font-family: courier;
+   text-align: center;
+    color:black;
+    font-size:2vw;
+    height: 200px auto;
+    
+}
+/*end parageraphs
+-------------------------------------------------------------------------------------------------------------------
+start summary*/
+.summary{
+    background-color: burlywood;
+}
+/*end summary
+--------------------------------------------------------------------------------------------------------------------
+satrt pre*/
+pre{
+    text-align: center;
+    font-size:2vw;
+}
+/*end pre
+--------------------------------------------------------------------------------------------------------------------
+start class center */
+.center{
+    text-align:center;
+    margin: 0;
+   
+}
+/*end class center
+--------------------------------------------------------------------------------------------------------------------
+border about my image*/
+.border{
+    border:2px solid black;
+}
+/*end image
+---------------------------------------------------------------------------------------------------------------------
+start footer
+*/
+footer{
+    margin: 0%;
+    padding: 10px;
+    text-align: center;
+    color:cadetblue;
+    background-color: chocolate;
+}
+/*end footer*/

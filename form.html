@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+</html>
+<body>
+    <a href="index.html" style="text-decoration: none;">return your old page</a>
+    <form action="index.html" target="_blank">        
+        <h1 style="font-size:42px;">Internship Application</h1>
+        <p>Please fill out the form below and hit submit to be considered for the internship</p>
+        <fieldset>
+            <legend>Personalia:</legend>
+            First name:<input type="text" name="first text" required="required" id="tex1" onkeydown="myfun1('tex1');" onmousedown="sayhello2('text2');"><br>
+            Last name:<input type="text" name="text last" required="required" id="text2" onkeydown="myfun1('text2');" onclick="myfun2()" onmousedown="sayhello2('text3');"><br>
+            Personal Website:<input type="url" name="url" ><br>
+            Enter a phone number:<input type="tel" name="number" placeholder="123-45-678"><br>
+            Enter your email:<input type="email" name="email" required="required" id="text3" onkeydown="myfun1('text3');" onclick="myfun3()" onmousedown="sayhello2('Username');"><br>
+            Username:<input type="text" name="Username" required="required" id="Username" onkeydown="myfun1('Username');" onclick="myfun4()" onmousedown="sayhello2('text5');"><br>
+            Password:<input type="password" name="password" required="required" id="text5" onkeydown="myfun1('text5');" onclick="myfun5()"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+           Degree:<input list="degrees" name="browser">
+            <datalist id="degrees">
+              <option value="Associate">
+              <option value="Bachelor">
+              <option value="Masters">
+              <option value="Ph.D">
+            </datalist><br>
+            When will you graduate:<input type="date" name="date" max="2021-12-31" min="2021-01-01"><br>
+            Upload your CV and other documents:<input type="file" name="file" value="Choose Files" multiple><br>
+        </fieldset>
+        <br>
+        <div style="text-align: center;">
+       <button type="submit" onclick="empty()" >submit</button>
+       <button type="button" onclick="sayhello()" id="demo1" >Save</button>
+        <input type="reset" name="reset" value="Reset">
+    </div>
+    </form>
+    <!--java script -->
+<script src="myScript.js"></script>
+</body>
